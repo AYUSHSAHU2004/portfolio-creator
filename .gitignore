@@ -1,4 +1,6 @@
 /Backend/node_modules
+/Backend/node_modules/
 /Backend/.env
 
 /portfoliomaking/node_modules
+/portfoliomaking/node_modules/
