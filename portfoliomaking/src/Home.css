@@ -1,0 +1,63 @@
+.col{
+    
+    margin:0 10px;
+}
+.row{
+    flex-wrap: wrap;
+}
+.container{
+    margin:60px auto;
+}
+.span1{
+    font-size: larger;
+    color: rgb(255, 39, 219);
+}
+.row{
+    margin:30px auto;
+    padding:50px;
+}
+.form2{
+    padding:50px;
+    margin:20px;
+    border:2px solid wheat;
+}
+.h2{
+    margin:0 30%;
+}
+.card3{
+    margin:20px auto;
+    padding:40px;
+}
+.span6{
+    font-size: 50px;
+    font-weight: 900;
+}
+.span5{
+    font-size: 40px;
+}
+.span7{
+    font-size: 40px;
+    font-weight: 700;
+    color:blueviolet;
+}
+.des{
+    margin:10px 35%;
+    color:blueviolet;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media only screen and (max-width:900px){
+    .grid1{
+        margin:60px auto;
+        gap:10px;
+    }
+    .grid2{
+        grid-column: span 2;
+
+    }
+    .container{
+        grid-column: span 2;
+    }
+}
